@@ -98,7 +98,7 @@ def atualizar_interface():
         canvas.itemconfig(amarelo, fill="gray")
         canvas.itemconfig(verde, fill="gray")
 
-    # NS
+    # Eixo Y
     if estado_y == "VERDE":
         canvas_y.itemconfig(luz_verde_y, fill="green")
 
@@ -108,7 +108,7 @@ def atualizar_interface():
     else:
         canvas_y.itemconfig(luz_vermelha_y, fill="red")
 
-    # LO
+    # Eixo X
     if estado_x == "VERDE":
         canvas_x.itemconfig(luz_verde_x, fill="green")
 
