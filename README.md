@@ -71,7 +71,7 @@ sinal = {
 Execute o arquivo principal com:
 
 ```bash
-python nome_do_arquivo.py
+python main.py
 ```
 
 ## Tecnologias Utilizadas
